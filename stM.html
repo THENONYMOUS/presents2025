@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Presents</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="stM.js"></script>
+    </head>
+    <body>
+        <br>
+        <a href="index.html">Home</a>
+        <h3>Rules:</h3>
+        <p id="rules"><b>@</b> is the player, controlled by buttons at the bottom.<br><b>#</b> is a wall.<br><b>!</b> is an enemy. They will move towards the player if the player is directly above, below, to the left or to the right of it.<br><b>x</b> is the goal of the level. Once the player reaches this, they will move to the next level.<br><b>.</b> is empty space.</p>
+        <br>
+        <p id="field"></p>
+        <br><br>
+        <button onclick="direction = 'up'">Up</button>
+        <button onclick="direction = 'down'">Down</button>
+        <button onclick="direction = 'left'">Left</button>
+        <button onclick="direction = 'right'">Right</button>
+    </body>
+</html>

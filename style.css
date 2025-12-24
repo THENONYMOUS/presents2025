@@ -1,0 +1,42 @@
+body {
+    background-color: #444477;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+a {
+    background-color: #333366;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    border: solid 1px;
+}
+th {
+    border: solid 1px;
+    padding: 3px;
+    font-size: 25px;
+    background-color: #55CC55;
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+}
+.world {
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+}
+.climb {
+    background-color: #333366;
+}
+#rules {
+    font-size: 18px;
+}
+#errorMessage {
+    font-size: 18px;
+    background-color: #00000055;
+}
+#grip {
+    font-size: 18px;
+    background-color: #00000055;
+}
